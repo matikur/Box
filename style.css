@@ -1,0 +1,30 @@
+#btn{
+	margin-top: 15px;
+}
+.sbox{
+	border: 1px solid red;
+	padding: 10px;
+	margin-top: 15px;
+	box-sizing: border-box;
+	
+}
+.sbox p{
+	text-align: justify;
+	margin-right: 6px;
+}
+.scroll{
+		max-height: 350px;
+		overflow: scroll;
+	}
+@media (max-width: 767px) {
+	.scroll{
+		max-height: 300px;
+		overflow: scroll;
+	}
+ }
+@media (min-width: 1200px) {
+	.scroll{
+		max-height: 330px;
+		overflow: scroll;
+	}
+}
